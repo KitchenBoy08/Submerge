@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Users\\KitchenBoy\\Documents\\Modding Projects\\Subnautica\\Submerge\\Submerge\\Submerge.csproj": {}
+  },
+  "projects": {
+    "E:\\Users\\KitchenBoy\\Documents\\Modding Projects\\Subnautica\\Submerge\\Submerge\\Submerge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Users\\KitchenBoy\\Documents\\Modding Projects\\Subnautica\\Submerge\\Submerge\\Submerge.csproj",
+        "projectName": "Submerge",
+        "projectPath": "E:\\Users\\KitchenBoy\\Documents\\Modding Projects\\Subnautica\\Submerge\\Submerge\\Submerge.csproj",
+        "packagesPath": "E:\\Users\\KitchenBoy\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\KitchenBoy\\Documents\\Modding Projects\\Subnautica\\Submerge\\Submerge\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "E:\\Users\\KitchenBoy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net35"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net35": {
+            "targetAlias": "net35",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net35": {
+          "targetAlias": "net35",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "E:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
