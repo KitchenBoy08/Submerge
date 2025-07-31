@@ -1,6 +1,14 @@
 ﻿namespace Submerge.UI;
 
-public class MenuManager
+public static class MenuManager
 {
-    
+    public static void CreateMenu()
+    {
+        
+    }
+
+    public static void CreateButton(Action onClick)
+    {
+        
+    }
 }

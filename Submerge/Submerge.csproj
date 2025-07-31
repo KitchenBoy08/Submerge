@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net35</TargetFramework>
+		<TargetFramework>net472</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 		<RootNamespace>Submerge</RootNamespace>
@@ -15,309 +15,307 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Reference Include="MelonLoader">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\MelonLoader\net35\MelonLoader.dll</HintPath>
-		</Reference>
-		<Reference Include="0Harmony">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\MelonLoader\net35\0Harmony.dll</HintPath>
-		</Reference>
-		<Reference Include="ValueTupleBridge">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\MelonLoader\net35\ValueTupleBridge.dll</HintPath>
-		</Reference>
 		<Reference Include="Accessibility">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Accessibility.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Accessibility.dll</HintPath>
 		</Reference>
 		<Reference Include="Assembly-CSharp-firstpass">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
 		</Reference>
 		<Reference Include="Assembly-CSharp">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Assembly-CSharp.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Assembly-CSharp.dll</HintPath>
 		</Reference>
 		<Reference Include="Autodesk.Fbx">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Autodesk.Fbx.dll</HintPath>
-		</Reference>
-		<Reference Include="com.rlabrecque.steamworks.net">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Autodesk.Fbx.dll</HintPath>
 		</Reference>
 		<Reference Include="FMODUnity">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\FMODUnity.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\FMODUnity.dll</HintPath>
 		</Reference>
 		<Reference Include="LitJson">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\LitJson.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\LitJson.dll</HintPath>
 		</Reference>
 		<Reference Include="LumenWorks">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\LumenWorks.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\LumenWorks.dll</HintPath>
 		</Reference>
 		<Reference Include="Mono.Data.Sqlite">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Mono.Data.Sqlite.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Mono.Data.Sqlite.dll</HintPath>
 		</Reference>
 		<Reference Include="Mono.Posix">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Mono.Posix.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Mono.Posix.dll</HintPath>
 		</Reference>
 		<Reference Include="Mono.WebBrowser">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Mono.WebBrowser.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Mono.WebBrowser.dll</HintPath>
 		</Reference>
 		<Reference Include="Newtonsoft.Json">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Newtonsoft.Json.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="NitroxPatcher">
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\NitroxPatcher.dll</HintPath>
 		</Reference>
 		<Reference Include="Novell.Directory.Ldap">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Novell.Directory.Ldap.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Novell.Directory.Ldap.dll</HintPath>
 		</Reference>
 		<Reference Include="PlatformInputDefault">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\PlatformInputDefault.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\PlatformInputDefault.dll</HintPath>
 		</Reference>
 		<Reference Include="PlatformIODefault">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\PlatformIODefault.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\PlatformIODefault.dll</HintPath>
 		</Reference>
 		<Reference Include="PlatformUtilsDefault">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\PlatformUtilsDefault.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\PlatformUtilsDefault.dll</HintPath>
 		</Reference>
 		<Reference Include="Sentry">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Sentry.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Sentry.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Addressables">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Addressables.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Addressables.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Burst.Cecil">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Cecil.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Cecil.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Burst.Cecil.Mdb">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Cecil.Mdb.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Cecil.Mdb.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Burst.Cecil.Pdb">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Cecil.Pdb.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Cecil.Pdb.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Burst.Cecil.Rocks">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Cecil.Rocks.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Cecil.Rocks.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Burst">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Burst.Unsafe">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Unsafe.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Burst.Unsafe.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Collections">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Collections.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Collections.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Formats.Fbx.Runtime">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Formats.Fbx.Runtime.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Formats.Fbx.Runtime.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.InternalAPIEngineBridge.001">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.InternalAPIEngineBridge.001.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Mathematics">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Mathematics.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Mathematics.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.MemoryProfiler">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.MemoryProfiler.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.MemoryProfiler.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Recorder">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Recorder.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Recorder.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.ResourceManager">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.ResourceManager.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.ResourceManager.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.ScriptableBuildPipeline">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.ScriptableBuildPipeline.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.ScriptableBuildPipeline.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.TextMeshPro">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.TextMeshPro.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.Timeline">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Timeline.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Timeline.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.AccessibilityModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.AIModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AIModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.AndroidJNIModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.AnimationModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.ARModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ARModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.AssetBundleModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.AudioModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.ClothModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.ClusterInputModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.ClusterRendererModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.CoreModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.CrashReportingModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.DirectorModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.DSPGraphModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.GameCenterModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.GridModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.GridModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.HotReloadModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.ImageConversionModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.IMGUIModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.InputLegacyModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.InputModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.InputModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.JSONSerializeModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.LocalizationModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.ParticleSystemModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.PerformanceReportingModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.Physics2DModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.PhysicsModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.ProfilerModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.ScreenCaptureModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.SharedInternalsModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.SpriteMaskModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.SpriteShapeModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.StreamingModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.SubstanceModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.SubsystemsModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.TerrainModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.TerrainPhysicsModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.TextCoreModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.TextRenderingModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.TilemapModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.TLSModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UI">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UI.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UI.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UIElementsModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UIModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UIModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UmbraModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UNETModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UnityAnalyticsModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UnityConnectModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UnityTestProtocolModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UnityWebRequestAudioModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UnityWebRequestModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UnityWebRequestTextureModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UnityWebRequestWWWModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.VehiclesModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.VFXModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.VideoModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.VRModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.VRModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.WindModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.WindModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.XRModule">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.XRModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UWE.EditorModifications">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UWE.EditorModifications.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UWE.EditorModifications.dll</HintPath>
 		</Reference>
 		<Reference Include="XblPCSandbox">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\XblPCSandbox.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\XblPCSandbox.dll</HintPath>
 		</Reference>
 		<Reference Include="XGamingRuntime">
-			<HintPath>e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\XGamingRuntime.dll</HintPath>
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\XGamingRuntime.dll</HintPath>
 		</Reference>
+		<Reference Include="MelonLoader">
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\MelonLoader\net35\MelonLoader.dll</HintPath>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>E:\Program Files (x86)\Steam\steamapps\common\Subnautica\MelonLoader\net35\0Harmony.dll</HintPath>
+		</Reference>
+
 	</ItemGroup>
 
 	<PropertyGroup>
@@ -327,9 +325,169 @@
 
 	<ItemGroup>
 		<Compile Include="Core.cs" />
+		<Compile Include="Facepunch.Steamworks\Callbacks\CallResult.cs" />
+		<Compile Include="Facepunch.Steamworks\Callbacks\ICallbackData.cs" />
+		<Compile Include="Facepunch.Steamworks\Classes\AuthTicket.cs" />
+		<Compile Include="Facepunch.Steamworks\Classes\Dispatch.cs" />
+		<Compile Include="Facepunch.Steamworks\Classes\SteamApi.cs" />
+		<Compile Include="Facepunch.Steamworks\Classes\SteamGameServer.cs" />
+		<Compile Include="Facepunch.Steamworks\Classes\SteamInternal.cs" />
+		<Compile Include="Facepunch.Steamworks\Enum\LeaderboardDisplay.cs" />
+		<Compile Include="Facepunch.Steamworks\Enum\LeaderboardSort.cs" />
+		<Compile Include="Facepunch.Steamworks\Enum\SendType.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\CustomEnums.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamAppList.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamApps.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamClient.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamController.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamFriends.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamGameSearch.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamGameServer.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamGameServerStats.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamHTMLSurface.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamHTTP.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamInput.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamInventory.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamMatchmaking.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamMatchmakingPingResponse.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamMatchmakingPlayersResponse.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamMatchmakingRulesResponse.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamMatchmakingServerListResponse.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamMatchmakingServers.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamMusic.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamMusicRemote.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamNetworking.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamNetworkingConnectionCustomSignaling.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamNetworkingCustomSignalingRecvContext.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamNetworkingSockets.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamNetworkingUtils.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamParentalSettings.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamParties.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamRemotePlay.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamRemoteStorage.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamScreenshots.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamTV.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamUGC.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamUser.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamUserStats.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamUtils.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\Interfaces\ISteamVideo.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\SteamCallbacks.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\SteamConstants.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\SteamEnums.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\SteamStructFunctions.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\SteamStructs.cs" />
+		<Compile Include="Facepunch.Steamworks\Generated\SteamTypes.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\Connection.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\ConnectionInfo.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\ConnectionManager.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\IConnectionManager.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\ISocketManager.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\NetAddress.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\NetDebugFunc.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\NetErrorMessage.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\NetIdentity.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\NetKeyValue.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\NetMsg.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\NetPingLocation.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\Socket.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\SocketManager.cs" />
+		<Compile Include="Facepunch.Steamworks\Networking\SteamDatagramRelayAuthTicket.cs" />
+		<Compile Include="Facepunch.Steamworks\ServerList\Base.cs" />
+		<Compile Include="Facepunch.Steamworks\ServerList\Favourites.cs" />
+		<Compile Include="Facepunch.Steamworks\ServerList\Friends.cs" />
+		<Compile Include="Facepunch.Steamworks\ServerList\History.cs" />
+		<Compile Include="Facepunch.Steamworks\ServerList\Internet.cs" />
+		<Compile Include="Facepunch.Steamworks\ServerList\IpList.cs" />
+		<Compile Include="Facepunch.Steamworks\ServerList\LocalNetwork.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamApps.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamClient.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamFriends.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamInput.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamInventory.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamMatchmaking.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamMatchmakingServers.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamMusic.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamNetworking.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamNetworkingSockets.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamNetworkingUtils.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamParental.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamParties.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamRemotePlay.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamRemoteStorage.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamScreenshots.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamServer.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamServerStats.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamUgc.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamUser.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamUserStats.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamUtils.cs" />
+		<Compile Include="Facepunch.Steamworks\SteamVideo.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Achievement.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\AppId.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Controller.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\DepotId.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\DlcInformation.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\DownloadProgress.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\DurationControl.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\FileDetails.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Friend.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\GameId.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Image.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\InventoryDef.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\InventoryItem.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\InventoryPurchaseResult.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\InventoryRecipe.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\InventoryResult.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Leaderboard.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\LeaderboardEntry.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\LeaderboardUpdate.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Lobby.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\LobbyQuery.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\MatchMakingKeyValuePair.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\NumericalFilter.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\OutgoingPacket.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\P2Packet.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\PartyBeacon.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\RemotePlaySession.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Screenshot.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Server.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\ServerInit.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Stat.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\SteamId.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\SteamIpAddress.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\SteamParamStringArray.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\Ugc.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\UgcEditor.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\UgcItem.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\UgcQuery.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\UgcResultPage.cs" />
+		<Compile Include="Facepunch.Steamworks\Structs\UserItemVote.cs" />
+		<Compile Include="Facepunch.Steamworks\Utility\Epoch.cs" />
+		<Compile Include="Facepunch.Steamworks\Utility\Helpers.cs" />
+		<Compile Include="Facepunch.Steamworks\Utility\Platform.cs" />
+		<Compile Include="Facepunch.Steamworks\Utility\SourceServerQuery.cs" />
+		<Compile Include="Facepunch.Steamworks\Utility\SteamInterface.cs" />
+		<Compile Include="Facepunch.Steamworks\Utility\Utf8String.cs" />
+		<Compile Include="Facepunch.Steamworks\Utility\Utility.cs" />
+		<Compile Include="Network\Message.cs" />
+		<Compile Include="Patches\FreezeTimePatch.cs" />
+		<Compile Include="Patches\Player\PlayerPatches.cs" />
+		<Compile Include="Patches\UI\MainMenuPatches.cs" />
+		<Compile Include="Player\LocalPlayer.cs" />
+		<Compile Include="UI\MenuManager.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\steam_api64.dll" />
+	  <EmbeddedResource Include="Resources\steam_api64.dll" />
 	</ItemGroup>
 	
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="COPY &quot;$(TargetPath)&quot; &quot;e:\Program Files (x86)\Steam\steamapps\common\Subnautica\Mods&quot;" />
+		<Exec Command="COPY &quot;$(TargetPath)&quot; &quot;E:\Program Files (x86)\Steam\steamapps\common\Subnautica\Mods&quot;" />
 	</Target>
 </Project>
