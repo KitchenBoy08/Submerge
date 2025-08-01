@@ -1,7 +1,7 @@
 using HarmonyLib;
-using Submerge.Player;
+using Submerge.Utilities;
 
-namespace Submerge.Patches;
+namespace Submerge.Hooking;
 
 [HarmonyPatch(typeof(global::Player))]
 public class PlayerPatches
@@ -11,7 +11,7 @@ public class PlayerPatches
     {
         private static void Postfix(global::Player __instance)
         {
-            if (LocalPlayer.localPlayer != null)
+            if (!LocalPlayer.localPlayer)
                 LocalPlayer.localPlayer = __instance;
         }
     }

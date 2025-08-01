@@ -470,12 +470,20 @@
 		<Compile Include="Facepunch.Steamworks\Utility\SteamInterface.cs" />
 		<Compile Include="Facepunch.Steamworks\Utility\Utf8String.cs" />
 		<Compile Include="Facepunch.Steamworks\Utility\Utility.cs" />
+		<Compile Include="GameTweaks\FreezeTimeTweak.cs" />
+		<Compile Include="GameTweaks\GameTweak.cs" />
+		<Compile Include="GameTweaks\LanguageTweak.cs" />
+		<Compile Include="GameTweaks\MainMenuTweak.cs" />
+		<Compile Include="GameTweaks\TweakManager.cs" />
+		<Compile Include="Hooking\Patches\PlayerPatches.cs" />
 		<Compile Include="Network\Message.cs" />
-		<Compile Include="Patches\FreezeTimePatch.cs" />
-		<Compile Include="Patches\Player\PlayerPatches.cs" />
-		<Compile Include="Patches\UI\MainMenuPatches.cs" />
-		<Compile Include="Player\LocalPlayer.cs" />
+		<Compile Include="Hooking\Hooks.cs" />
 		<Compile Include="UI\MenuManager.cs" />
+		<Compile Include="Utilities\GamePaths.cs" />
+		<Compile Include="Utilities\LocalPlayer.cs" />
+		<Compile Include="Utilities\Logger.cs" />
+		<Compile Include="Utilities\PlayerManager.cs" />
+		<Compile Include="Utilities\UICreator.cs" />
 	</ItemGroup>
 
 	<ItemGroup>

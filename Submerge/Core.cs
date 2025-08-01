@@ -5,6 +5,9 @@ using System.Reflection;
 using MelonLoader;
 using MelonLoader.Utils;
 using Steamworks;
+using Submerge.GameTweaks;
+using Submerge.Hooking;
+using Submerge.Utilities;
 
 [assembly: MelonInfo(typeof(Submerge.Core), "Submerge", "1.0.0", "Silverware", null)]
 [assembly: MelonGame("Unknown Worlds", "Subnautica")]
@@ -15,6 +18,11 @@ public class Core : MelonMod
 {
     public override void OnInitializeMelon()
     {
+        Logger.InitializeLogger(LoggerInstance);
+        
+        // Add Game Tweaks
+        TweakManager.LoadInternalTweaks();
+        
         // Manually load a full steam_api64.dll for Facepunch.Steamworks support
         LoadSteamClient();
     }
