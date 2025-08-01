@@ -7,31 +7,16 @@ public class TweakManager
 {
     internal static List<GameTweak> Tweaks = new List<GameTweak>();
     
-    internal static void LoadInternalTweaks()
+    internal static void InitializeTweaks()
     {
         Assembly assembly = Assembly.GetExecutingAssembly();
         
-        LoadFromAssembly(assembly);
-    }
+        Tweaks = AssemblyLoader.LoadTypesFromAssembly<GameTweak>(assembly);
 
-    public static void LoadFromAssembly(Assembly assembly)
-    {
-        foreach (var type in assembly.GetTypes())
+        foreach (var tweak in Tweaks)
         {
-            if (type.FullName.Contains("System") || type.FullName.Contains("Mono"))
-                continue;
-            
-            if (!typeof(GameTweak).IsAssignableFrom(type) || type.IsAbstract || type.IsInterface)
-                continue;
-            
-#if DEBUG
-            Logger.Log($"Adding tweak: {type.Name}");
-#endif
-            
-            var tweak = (GameTweak)Activator.CreateInstance(type);
+            Logger.DebugLog($"Loaded tweak: {tweak.GetType().Name}");
             tweak.Initialize();
-            
-            Tweaks.Add(tweak);
         }
     }
 }

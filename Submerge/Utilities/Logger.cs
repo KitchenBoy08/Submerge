@@ -15,7 +15,14 @@ internal static class Logger
     
     internal static void Log(string message)
     {
-        _loggerInstance.Msg(Color.Blue, message);
+        _loggerInstance.Msg(Color.Aqua, message);
+    }
+
+    internal static void DebugLog(string message)
+    {
+#if DEBUG
+        _loggerInstance.Msg(Color.Aquamarine, message);
+#endif
     }
 
     internal static void Warn(string message)

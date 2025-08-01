@@ -16,12 +16,14 @@ namespace Submerge;
 
 public class Core : MelonMod
 {
+    internal static Assembly SubmergeAssembly = Assembly.GetExecutingAssembly();
+    
     public override void OnInitializeMelon()
     {
         Logger.InitializeLogger(LoggerInstance);
         
         // Add Game Tweaks
-        TweakManager.LoadInternalTweaks();
+        TweakManager.InitializeTweaks();
         
         // Manually load a full steam_api64.dll for Facepunch.Steamworks support
         LoadSteamClient();

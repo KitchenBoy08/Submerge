@@ -1,6 +1,6 @@
 namespace Submerge.Network;
 
-public class Message
+public abstract class Message
 {
-     
+    public byte[] Buffer = new byte[0];
 }
