@@ -476,14 +476,15 @@
 		<Compile Include="GameTweaks\MainMenuTweak.cs" />
 		<Compile Include="GameTweaks\TweakManager.cs" />
 		<Compile Include="Hooking\Patches\PlayerPatches.cs" />
-		<Compile Include="Network\Layers\Steam\SteamNetworkLayer.cs" />
+		<Compile Include="Network\Layer\NetworkLayer.cs" />
+		<Compile Include="Network\Layer\NetworkLayerManager.cs" />
+		<Compile Include="Network\Layer\Steam\SteamNetworkLayer.cs" />
 		<Compile Include="Network\Message.cs" />
 		<Compile Include="Hooking\Hooks.cs" />
 		<Compile Include="Network\MessageReader.cs" />
 		<Compile Include="Network\MessageSender.cs" />
 		<Compile Include="Network\MessageWriter.cs" />
-		<Compile Include="Network\NetworkLayer.cs" />
-		<Compile Include="Network\NetworkLayerManager.cs" />
+		<Compile Include="Network\NetworkHelper.cs" />
 		<Compile Include="UI\MenuManager.cs" />
 		<Compile Include="Utilities\AssemblyLoader.cs" />
 		<Compile Include="Utilities\GamePaths.cs" />
@@ -494,8 +495,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Network\Layers\Epic\" />
-	  <Folder Include="Network\Layers\Riptide\" />
+	  <Folder Include="Network\Layer\Epic\" />
+	  <Folder Include="Network\Layer\Riptide\" />
 	  <Folder Include="Network\Messages\" />
 	  <Folder Include="Resources\" />
 	</ItemGroup>
