@@ -29,7 +29,8 @@ public class Core : MelonMod
 
     public override void OnLateInitializeMelon()
     {
-        // Initialize Network Layers
+        // Initialize Networking
+        Message.InitializeMessages();
         NetworkLayerManager.InitializeLayers();
     }
 }

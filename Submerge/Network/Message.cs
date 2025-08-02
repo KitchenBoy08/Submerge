@@ -5,7 +5,7 @@ namespace Submerge.Network;
 
 public abstract class Message
 {
-    internal static Dictionary<uint, Message> Messages = new();
+    private static Dictionary<uint, Message> _messages = new();
     
     public abstract uint Id { get; }
     
@@ -15,7 +15,7 @@ public abstract class Message
     internal static void HandleMessage(byte[] data)
     {
         var reader = MessageReader.Create(data);
-        var message = Messages[reader.Id];
+        var message = _messages[reader.Id];
         
         message.HandleMessage(reader);
     }
@@ -26,13 +26,19 @@ public abstract class Message
 
         foreach (var message in messages)
         {
-            if (Messages.ContainsKey(message.Id))
+            if (_messages.ContainsKey(message.Id))
             {
                 Logger.Error($"Cannot load {message.GetType().Name} as its tag is already loaded.");
                 continue;
             }
             
-            Messages.Add(message.Id, message);
+            Logger.DebugLog($"Loaded message: {message.GetType().Name}");
+            _messages.Add(message.Id, message);
         }
+    }
+
+    internal static void InitializeMessages()
+    {
+        LoadMessages(Core.SubmergeAssembly);
     }
 }
