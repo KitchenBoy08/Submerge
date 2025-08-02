@@ -1,4 +1,5 @@
-﻿using Submerge.Utilities;
+﻿using Steamworks;
+using Submerge.Utilities;
 
 namespace Submerge.Network;
 
@@ -10,7 +11,14 @@ public class SteamNetworkLayer : NetworkLayer
 
     public override void Initialize()
     {
-        Logger.Log("Initialized SteamNetworkLayer");
+        // Load SteamAPI
+        SteamAPILoader.Load();
+        
+        // Setup Facepunch
+        SteamClient.Init(480, false);
+        SteamNetworkingUtils.InitRelayNetworkAccess();
+        
+        Logger.DebugLog("Steam initialized");
     }
 
     public override void StartServer()

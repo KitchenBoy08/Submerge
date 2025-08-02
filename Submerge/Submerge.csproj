@@ -478,6 +478,8 @@
 		<Compile Include="Hooking\Patches\PlayerPatches.cs" />
 		<Compile Include="Network\Layer\NetworkLayer.cs" />
 		<Compile Include="Network\Layer\NetworkLayerManager.cs" />
+		<Compile Include="Network\Layer\Steam\SteamAPILoader.cs" />
+		<Compile Include="Network\Layer\Steam\SteamConnectionManager.cs" />
 		<Compile Include="Network\Layer\Steam\SteamNetworkLayer.cs" />
 		<Compile Include="Network\Message.cs" />
 		<Compile Include="Hooking\Hooks.cs" />
